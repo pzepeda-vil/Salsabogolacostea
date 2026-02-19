@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   // ⬇️ CHANGE this to your GitHub repo name, e.g. '/lacostena-bogo-hero/'
-  base: '/Salsabogolacostea/',
+  base: '/',
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
     // Tailwind is not being actively used – do not remove them
