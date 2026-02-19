@@ -119,10 +119,10 @@ const HeroSection = ({ title, subtitle, actions, stats, images, className, onIma
         </motion.div>
 
         {/* Right Column: Image Collage */}
-        <div className="relative h-[340px] sm:h-[620px] w-full order-1 lg:order-2 overflow-hidden">
+        <div className="relative h-[340px] sm:h-[620px] w-full order-1 lg:order-2">
           {/* Phase 3: Can 1 (Green Sauce) — larger, in front, overlapping */}
           <motion.div
-            className="absolute left-[32%] top-[2%] -translate-x-1/2 h-[21rem] w-[21rem] sm:h-[36rem] sm:w-[36rem] z-20 lg:left-[18%] lg:top-[5%] lg:-translate-x-1/2 lg:h-[34rem] lg:w-[34rem]"
+            className="absolute left-[32%] top-[2%] -translate-x-1/2 h-[21rem] w-[21rem] sm:h-[36rem] sm:w-[36rem] z-20 lg:left-[18%] lg:top-[5%] lg:-translate-x-1/2 lg:h-[28rem] lg:w-[28rem]"
             initial={{ opacity: 0, scale: 0.8, y: 30, rotate: -3 }}
             animate={{ opacity: 1, scale: 1, y: 0, rotate: -3 }}
             transition={{
@@ -143,7 +143,7 @@ const HeroSection = ({ title, subtitle, actions, stats, images, className, onIma
 
           {/* Phase 3: Can 2 (Mexican/Red Sauce) — smaller, behind, overlapping */}
           <motion.div
-            className="absolute left-[62%] top-[15%] -translate-x-1/2 h-52 w-52 sm:h-80 sm:w-80 z-10 lg:left-[60%] lg:top-[15%] lg:-translate-x-1/2 lg:h-80 lg:w-80"
+            className="absolute left-[62%] top-[15%] -translate-x-1/2 h-52 w-52 sm:h-80 sm:w-80 z-10 lg:left-[58%] lg:top-[18%] lg:-translate-x-1/2 lg:h-[22rem] lg:w-[22rem]"
             initial={{ opacity: 0, scale: 0.8, y: 30, rotate: 4 }}
             animate={{ opacity: 1, scale: 1, y: 0, rotate: 4 }}
             transition={{
