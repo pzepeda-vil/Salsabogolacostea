@@ -3,15 +3,15 @@ import { AnimatedTestimonials } from './components/ui/animated-testimonials';
 import InfiniteGallery from './components/ui/3d-gallery-photography';
 import { HookBanner, AIDASection } from './components/sales-copy';
 import { Button } from './components/ui/button';
-import { ShoppingCart, Percent, Clock, ArrowUp, Package, Flame } from 'lucide-react';
+import { ShoppingCart, Percent, Clock, ArrowUp, Flame } from 'lucide-react';
 import { ProfileCard } from './components/ui/profile-card';
 import { ShopifyBuyButton } from './components/shopify-buy-button';
 // ⬇️ GITHUB DEPLOY TODO
-import salsaCan from 'figma:asset/9e152029f71ab7052690eda8f70434dac3ac015b.png';
-import greenSalsaCan from 'figma:asset/5943dcec7e6d114e9db2562e00c11965d2278d3a.png';
-import laCostaLogo from 'figma:asset/6ff147dbdf1316080fbd360b6d6bb0ec22a8b2d6.png';
-import greenSalsaCanCard from 'figma:asset/cead28caf626f35744c63da8a855fb56ef2c307f.png';
-import mexicanSalsaCanCard from 'figma:asset/d54207facb11fab29ad6d48d1c4984cdf4a27da2.png';
+import salsaCan from '../assets/9e152029f71ab7052690eda8f70434dac3ac015b.png';
+import greenSalsaCan from '../assets/5943dcec7e6d114e9db2562e00c11965d2278d3a.png';
+import laCostaLogo from '../assets/6ff147dbdf1316080fbd360b6d6bb0ec22a8b2d6.png';
+import greenSalsaCanCard from '../assets/cead28caf626f35744c63da8a855fb56ef2c307f.png';
+import mexicanSalsaCanCard from '../assets/d54207facb11fab29ad6d48d1c4984cdf4a27da2.png';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 
